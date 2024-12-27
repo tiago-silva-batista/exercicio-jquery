@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+}
+
+header {
+    background-color: #3abdbd;
+    padding: 16px 0;
+    color: #fff;
+    display: flex;
+    border-bottom: 16px solid #135050;
+    justify-content: center;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+header button {
+margin-left: 16px;
+}
+
+form {
+    background-color: rgb(141, 218, 192);
+    padding: 24px 0;
+    text-align: center;
+    display: none;
+}
+
+input,
+button {
+    padding: 8px;
+}
+
+button {
+    background-color: #009432;
+    border: none;
+    border-radius: 3px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+}
+
+#delete {
+    background-color: red;
+}
+
+.bomb ul {
+    margin: 10px;
+    font-weight: bolder;
+    height: 20px;
+    list-style-type: none;
+}
+
+.bomb {
+    justify-content: center;
+    justify-items: center;
+    cursor: pointer;
+    height: 300px;
+}
+
+.riscado {
+    text-decoration: line-through;
+}
